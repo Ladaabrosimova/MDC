@@ -1,0 +1,6 @@
+C:\Users\79014\OneDrive\Рабочий стол\Lada\МДК2\RoomLibrary\bin\Debug\RoomLibrary.dll
+C:\Users\79014\OneDrive\Рабочий стол\Lada\МДК2\RoomLibrary\bin\Debug\RoomLibrary.pdb
+C:\Users\79014\OneDrive\Рабочий стол\Lada\МДК2\RoomLibrary\obj\Debug\RoomLibrary.csproj.AssemblyReference.cache
+C:\Users\79014\OneDrive\Рабочий стол\Lada\МДК2\RoomLibrary\obj\Debug\RoomLibrary.csproj.CoreCompileInputs.cache
+C:\Users\79014\OneDrive\Рабочий стол\Lada\МДК2\RoomLibrary\obj\Debug\RoomLibrary.dll
+C:\Users\79014\OneDrive\Рабочий стол\Lada\МДК2\RoomLibrary\obj\Debug\RoomLibrary.pdb
