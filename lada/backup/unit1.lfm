@@ -1,0 +1,58 @@
+object Form1: TForm1
+  Left = 1207
+  Height = 240
+  Top = 154
+  Width = 320
+  Caption = 'Текстовый редактор'
+  ClientHeight = 220
+  ClientWidth = 320
+  Menu = MainMenu1
+  LCLVersion = '2.2.6.0'
+  object Memo1: TMemo
+    Left = 8
+    Height = 176
+    Top = 8
+    Width = 304
+    ScrollBars = ssVertical
+    TabOrder = 0
+  end
+  object MainMenu1: TMainMenu
+    Left = 32
+    Top = 192
+    object MenuItem1: TMenuItem
+      Caption = 'Файл'
+      object MenuItem3: TMenuItem
+        Caption = 'Открыть'
+        OnClick = MenuItem3Click
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Сохранить'
+        OnClick = MenuItem4Click
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Шрифт'
+      OnClick = MenuItem2Click
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Title = 'Открыть'
+    Filter = 'Текстовые файлы|*.txt|Файлы pas|*.pas|Все файлы|*.*'
+    Left = 71
+    Top = 192
+  end
+  object SaveDialog1: TSaveDialog
+    Title = 'Сохранить '
+    DefaultExt = '.txt'
+    FileName = 'C:\moilaz\kurslab\project1.lpi'
+    InitialDir = 'C:\moilaz\kurslab\'
+    Left = 112
+    Top = 192
+  end
+  object FontDialog1: TFontDialog
+    MinFontSize = 0
+    MaxFontSize = 0
+    Left = 152
+    Top = 192
+  end
+end

@@ -1,8 +1,22 @@
-{Text2. Дано имя файла и целое число N (0 < N < 27).
-Создать текстовый файл с указанным именем и записать в него N строк: первая строка должна содержать строчную (т. е. маленькую) латинскую букву «a», вторая — буквы «ab», третья — буквы «abc» и т. д.;
-последняя строка должна содержать N начальных строчных латинских букв в алфавитном порядке.}
 program project1;
 
+{$mode objfpc}{$H+}
+
+uses
+  {$IFDEF UNIX}{$IFDEF UseCThreads}
+  cthreads,
+  {$ENDIF}{$ENDIF}
+  Interfaces, // this includes the LCL widgetset
+  Forms, Unit1
+  { you can add units after this };
+
+{$R *.res}
+
 begin
+  RequireDerivedFormResource:=True;
+  Application.Scaled:=True;
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
 end.
 
